@@ -6,7 +6,7 @@ from app.utils.ai_model import process_video
 
 router = APIRouter()
 
-UPLOAD_DIR = "uploads"
+UPLOAD_DIR = "https://github.com/TheBeyonder237/api_model/tree/master/uploads"
 MODEL_PATH = "app/models/best.onnx"
 
 os.makedirs(UPLOAD_DIR, exist_ok=True)
